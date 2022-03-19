@@ -1,5 +1,5 @@
 # Become-Invisible
-I have create an invisible cloak using Color detection and segmentation. In order to use this project, you’ll need a single-color cloth. The cloth should not contain any other color visible. Here I have used a white paper as cloak. I have made a website which makes this project more interactive!.<br>
+I have create an invisible cloak using Color detection and segmentation. In order to use this project, you’ll need a single-color cloth. The cloth should not contain any other color visible. Here I have used a white paper as cloak. I have made a website which makes this project more interactive!<br>
 
 (Note: The website may be slow since while capturing frames, there will be server lag for each frame)<br>
 
@@ -17,11 +17,11 @@ After getting your background frame, your device camera will turn on again, and 
 
 ### For example:
 ### Background:<br>
-![image](https://user-images.githubusercontent.com/76225348/159138443-d0cdf6b7-5d26-4238-89d6-003d19f17317.png)
+![image](https://user-images.githubusercontent.com/76225348/159138996-064a4ecf-c962-4f85-a35f-af64b91df3c8.png)
 
 ### Results:<br>
-![image](https://user-images.githubusercontent.com/76225348/159138602-8742c92d-e926-4ff0-8c56-e22a4325169b.png)
-![image](https://user-images.githubusercontent.com/76225348/159138623-710702ca-81bf-44e1-a371-9b465b57af7a.png)
+![image](https://user-images.githubusercontent.com/76225348/159139051-71bf7c06-64ee-4a7a-bfd7-2ee31ef822e4.png)
+![image](https://user-images.githubusercontent.com/76225348/159139058-8d49555a-9154-4038-b698-e2f8ac0c61bd.png)
 
 <hr>
 
