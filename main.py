@@ -24,6 +24,7 @@ def filter_mask(mask):
     return dilation
 
 def startaction(color, background):
+#     st.write("Testing inside startaction")
     videocapture = cv2.VideoCapture(0)
 
     red_low = [160,50,50]
@@ -61,28 +62,18 @@ def startaction(color, background):
 
     while True:
         videocapture = cv2.VideoCapture(0)
-        ret, frame = videocapture.read()  # Capture every frame
-        # convert to hsv colorspace
+        ret, frame = videocapture.read()
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
-        # lower bound and upper bound for Green color
-        # find the colors within the boundaries
+        
         mask = cv2.inRange(hsv, lower_bound, upper_bound)
-
-        # Filter mask
         mask = filter_mask(mask)
-
-        # Apply the mask to take only those region from the saved background 
-        # where our cloak is present in the current frame
+        
         cloak = cv2.bitwise_and(background, background, mask=mask)
 
-        # create inverse mask 
         inverse_mask = cv2.bitwise_not(mask)  
 
-        # Apply the inverse mask to take those region of the current frame where cloak is not present 
         current_background = cv2.bitwise_and(frame, frame, mask=inverse_mask)
 
-        # Combine cloak region and current_background region to get final frame 
         combined = cv2.add(cloak, current_background)
 
         cv2.imshow("Final output", combined)
@@ -92,7 +83,6 @@ def startaction(color, background):
 
 def main():
     # st.write("First select the color of the cloak you are using")
-
     flag = 0
     st.write("First, select the color of your cloak:")
     left_column, right_column = st.columns(2)
