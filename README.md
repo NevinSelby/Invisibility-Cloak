@@ -8,7 +8,8 @@ Background:<br>
 I had used 'White' as my cloak color, and used a white paper as my cloak.
 
 Results:<br>
-![image](https://user-images.githubusercontent.com/76225348/159138578-dcd744b6-d3ba-4804-a48a-9a61da1de11b.png)
-![image](https://user-images.githubusercontent.com/76225348/159138580-7ba93b7d-48ae-4f19-b96c-0a8e99974721.png)
+![image](https://user-images.githubusercontent.com/76225348/159138602-8742c92d-e926-4ff0-8c56-e22a4325169b.png)
+![image](https://user-images.githubusercontent.com/76225348/159138623-710702ca-81bf-44e1-a371-9b465b57af7a.png)
+
 
 
