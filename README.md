@@ -27,3 +27,10 @@ After getting your background frame, your device camera will turn on again, and 
 
 <hr>
 
+### References:<br>
+https://data-flair.training/blogs/invisible-cloak-opencv-python/ <br>
+https://www.analyticsvidhya.com/blog/2021/07/harry-potters-invisible-cloak-using-opencv-python/ <br>
+https://www.geeksforgeeks.org/invisible-cloak-using-opencv-python-project/ <br>
+
+<hr>
+
