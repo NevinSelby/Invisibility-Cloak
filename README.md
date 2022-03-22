@@ -1,7 +1,7 @@
 ( Facing few issues on deploying the site... Working on solving them. Till then you can view the Jupyter Notebook 😄)
 
 # Invisibility-Cloak
-I have create an invisible cloak using Color detection and segmentation. In order to use this project, you’ll need a single-color cloth. The cloth should not contain any other color visible. Here I have used a white paper as cloak. I have made a website which makes this project more interactive!<br>
+I have created an invisible cloak using Color detection and segmentation. In order to use this project, you’ll need a single-color cloth. The cloth should not contain any other color visible. Here I have used a white paper as cloak. I have made a website which makes this project more interactive!<br>
 
 (Note: The website may be slow since while capturing frames, there will be server lag for each frame)<br>
 
