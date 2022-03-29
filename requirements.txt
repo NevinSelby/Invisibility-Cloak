@@ -1,2 +1,3 @@
 opencv-python-headless
+click==8
 numpy
